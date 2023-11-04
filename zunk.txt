@@ -1,0 +1,789 @@
+
+				{{-- <div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/realTracking.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Next Day Delivery service</h3>
+							<p class="mb-0">
+								We ensures our merchant guaranteed delivery within 24 hours. We
+								send SMS before the product is ready for dispatch. If Customer
+								Does not respond, our call center executives informs the merchant
+								rider is nearby customer’s location.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/return.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Sub area and Outside Dhaka Delivery</h3>
+							<p class="mb-0">
+								We currently operating delivery service most of the Sub area of
+								the Dhaka and some outside Dhaka and we try to deliver within 48
+								hours Within this year we will start our operations all over
+								Bangladesh.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/pickupTime.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Data Entry</h3>
+							<p class="mb-0">
+								You are facing problem with data entry, no need to worry. Our
+								dedicated data entry operators do it for you do not have to pay
+								extra.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/deliveryMan.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Packaging</h3>
+							<p class="mb-0">
+								We offers you to keep your product safe and intact. Our packaging
+								ensures and insured product safety.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/trackingSteps.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">WareHouse</h3>
+							<p class="mb-0">
+								Three steps of payment method Hand cash, Mobile banking, Bank
+								transfer.
+							</p>
+						</div>
+					</div>
+				</div> --}}
+				{{-- <div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/Shipment.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Safe & Secure Shipment</h3>
+							<p class="mb-0">
+								After confirming the pickup, rider receives the product from
+								merchant’s location and safely bring the parcel to our hub.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch">
+					<div class="d-block services justify-content-between">
+						<div class="icon align-items-center justify-content-center">
+							<img src="{{ asset('frontend/images/Delivery.png') }}" />
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Handover to Receiver</h3>
+							<p class="mb-0">
+								As our delivery commitment we have handover parcel to the customer
+								safe and swiftly on their desired time
+							</p>
+						</div>
+					</div>
+				</div> --}}
+									{{-- <div class="accordion__item js-accordion-item">
+										<div class="accordion-header js-accordion-header">
+											Dhaka - Sub Area
+										</div>
+										<div class="accordion-body js-accordion-body">
+											<div class="accordion-body__contents">
+												<ul>
+													<li>
+														<i class="fa fa-map-marker-alt"></i>South Jatrabari
+													</li>
+													<li><i class="fa fa-map-marker-alt"></i>Sanarpar</li>
+													<li><i class="fa fa-map-marker-alt"></i>Matuail</li>
+													<li>
+														<i class="fa fa-map-marker-alt"></i>Chittagong Road
+													</li>
+													<li><i class="fa fa-map-marker-alt"></i>Siddhirganj</li>
+													<li><i class="fa fa-map-marker-alt"></i>Kanchpur</li>
+													<li><i class="fa fa-map-marker-alt"></i>Demra</li>
+													<li><i class="fa fa-map-marker-alt"></i>Keraniganj</li>
+													<li>
+														<i class="fa fa-map-marker-alt"></i>Kamrangir char
+													</li>
+													<li><i class="fa fa-map-marker-alt"></i>Ashulia</li>
+													<li><i class="fa fa-map-marker-alt"></i>Tongi</li>
+													<li><i class="fa fa-map-marker-alt"></i>Dakkhinkhan</li>
+													<li><i class="fa fa-map-marker-alt"></i>Uttarkahn</li>
+													<li><i class="fa fa-map-marker-alt"></i>Narayanganj</li>
+													<li><i class="fa fa-map-marker-alt"></i>Gazipur</li>
+													<li><i class="fa fa-map-marker-alt"></i>Savar</li>
+												</ul>
+											</div>
+											<!-- end of sub accordion item body contents -->
+										</div>
+										<!-- end of sub accordion item body -->
+									</div>
+									<!-- end of sub accordion item -->
+									<div class="accordion__item js-accordion-item">
+										<div class="accordion-header js-accordion-header">
+											Outside of Dhaka
+										</div>
+										<div class="accordion-body js-accordion-body">
+											<div class="accordion-body__contents">Full Coverage</div>
+											<!-- end of sub accordion item body contents -->
+										</div>
+										<!-- end of sub accordion item body -->
+									</div> --}}
+									<!-- end of sub accordion item -->
+{{-- <div class="col-sm-6 d-flex align-self-stretch">
+				<div class="d-block whyus-content justify-content-between bg-black">
+					<span
+						>Our staffs and delivery man are so experts that they will help you to
+						packaging your product and write proper address. You don’t need to
+						panic if you have no helping hand.</span
+					>
+				</div>
+			</div>
+			<div class="col-sm-6 d-flex align-self-stretch">
+				<div class="d-block whyus-content justify-content-between">
+					<span
+						>We will help you to promote your product through our page and website
+						with free of cost.</span
+					>
+				</div>
+			</div>
+			<div class="col-sm-6 d-flex align-self-stretch"></div>
+			<div class="col-sm-6 d-flex align-self-stretch"></div>
+			<div class="col-sm-6 d-flex align-self-stretch">
+				<div class="d-block whyus-content justify-content-between bg-black">
+					<span
+						>Our company directors are well established and well known, so there
+						is no problem with trust issues.</span
+					>
+				</div>
+			</div>
+			<div class="col-sm-6 d-flex align-self-stretch">
+				<div class="d-block whyus-content justify-content-between">
+					<span>You can see your product condition through tracking system.</span>
+				</div>
+			</div>
+			<div class="col-sm-6 d-flex align-self-stretch"></div>
+			<div class="col-sm-6 d-flex align-self-stretch"></div>
+			<div class="col-sm-6 d-flex align-self-stretch">
+				<div class="d-block whyus-content justify-content-between bg-black">
+					<span
+						>You can keep your product in our warehouse with free of cost.</span
+					>
+				</div>
+			</div> --}}
+					
+					{{-- <!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							What can I send in my parcel?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								You can send any kind of parcel. But don’t delivery any kind of
+								illegal products or prohibited products. If found any kind of
+								illegal or prohibited products Bahokbd.com will not be liable for
+								this rather merchant will have to take all responsibilities
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							What hours are you open and when do you make deliveries?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								We understand that not every delivery is going to fall in 8.00
+								between 11.00 normal business hours so we are conveniently open
+								24/7 and can make a delivery at any time of day or night.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							How do you notify Customer that they have a parcel?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								We have Masking SMS Service. The Moment the parcel is ready for
+								delivery; customer will be notified with an SMS along with timing
+								and Rider’s Number.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							How can I monitor the status of my package through its journey?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								Simply enter your Order Reference at the Track Your Order of the
+								Website for the latest tracking updates. Please note that you can
+								track your order after the product has been dispatched for
+								delivery.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							I am trying to track my parcel online however the system has not
+							updated my information. Why?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								Please raise a Support Ticket via the Contact Us page we will
+								respond quickly and promptly to resolve the issue at hand.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							Can I update my customer’s information after pick up or dispatched
+							for delivery?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								You can simply raise a ticket on webpage and our team will update
+								the information and solve your issues
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							Will a package be delivered if nobody is there to accept it?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								Though a signature is required for any deliveries to be made the
+								package might be given to person instructed by customer without
+								driver's discretion. You can also add notes to the Instructions
+								field as to where you would like your package delivered if no one
+								is at home
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							Do you offer same day freight delivery?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								Yes we do same day delivery. Our last pick up time 1.00pm
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							How does your online delivery quote work?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								Simply fill out your name, phone number, email, speed, pick up and
+								delivery destination, and details of your delivery and we will get
+								back to you with a quote within minutes.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							How quickly can you deliver my package?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								We promise guaranteed delivery within 24 hours for next day
+								service and 6-8 hours for same day service.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							What is the largest package you can deliver?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								We can deliver any item that is smaller than 2ft x 4ft x 2ft.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							When will the driver arrive to collect my shipment(s)?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								The driver will arrive to collect your shipments(s) between 3:00pm
+								and 11:30pm on the working-day you selected for collection. Some
+								of our Courier Services allow you to request a smaller pickup
+								window at the time of booking.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							Do you offer medical courier services?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								We offer STAT prescription, medical sample, medical specimen,
+								medical equipment, and medical supply delivery throughout the
+								Dhaka. We will deliver medical equipments under the instructions
+								and rules of Government or Health organization.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							What type of legal courier and delivery services do you offer?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								Our legal courier and delivery drivers are experienced and
+								knowledgeable about not just legal deliveries but of the basic
+								functions of the judicial system. Due to this we offer same day
+								and rush court filings, document retrieval, and court records
+								staging and transportation.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							Where and how do I make a claim(s) for either loss or damage?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								All claims MUST be sent to Courier Queen by raising a Ticket via
+								the Contact Us Page within 48 hours. Or Contact our desired
+								number.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item -->
+					<div class="accordion__item js-accordion-item">
+						<div class="accordion-header js-accordion-header">
+							Do you have any Value added service?
+						</div>
+						<div class="accordion-body js-accordion-body">
+							<div class="accordion-body__contents bwColor">
+								We will help you to avail any kind of documental registration
+								related to your business. Our Legal service team will work for
+								your any kind of legal help related to your business.
+							</div>
+							<div class="accordion js-accordion"></div>
+							<!-- end of sub accordion -->
+						</div>
+						<!-- end of accordion body -->
+					</div>
+					<!-- end of accordion item --> --}}
+          {{-- <div class="about-section">
+              <fieldset>
+                  <legend><h2>WHAT INFORMATION DO WE COLLECT?</h2></legend>
+              </fieldset>
+              <ul class="mission-list">
+                  <li>We collect personally identifiable information from you that is volunteered when you register on our website (www.bahokcourier.com), place an order, and fill out an online form and/or in response to specific information requests unambiguously and explicitly presented to you.</li>
+                  <li>When ordering or registering on our site, as appropriate, you may be asked to enter your first and last name, your e-mail address, your postal address, your date of birth, your contact details, and details of a payment mechanism, such as your credit/debit card information.</li>
+                  <li>We may also collect your Internet Protocol (“IP”) address. This may assist us in diagnosing problems with our server, and to administer our Website in order to be able to provide you with efficient and uninterrupted service. When you use the internet, an IP address is a number that is assigned to your computer. An IP address assists in identifying you during a particular session for security purposes and to gather broader demographic data.</li>
+              </ul>
+          </div>                    
+          <div class="about-section">
+              <fieldset>
+                  <legend><h2>WHAT DO WE USE YOUR PERSONAL IDENTIFIABLE INFORMATION FOR?</h2></legend>
+                  <p>Any of the information that we collect from you may be used in one of the following ways</p>
+              </fieldset>
+              <ul class="mission-list">
+                  <li>To personalize your experience. Your information helps us to respond better to your individual needs and communicate with you effectively.</li>
+                  <li>To improve our website. We continually strive to improve our website offerings based on the information and feedback we receive from you.</li>
+                  <li>To improve customer service your information helps us to respond more effectively to your customer service requests and support needs.</li>
+                  <li>To process transactions</li>
+                  <li>To send periodic emails to you</li>
+                  <li>To control and manage your account</li>
+                  <li>To analyses your use of our service</li>
+                  <li>To conduct research for marketing purposes</li>
+                  <li>To regulate deals/transactions and purchase products tailored in accordance with your specific interests, needs and location</li>
+                  <li>To enforce and apply our terms and conditions</li>
+              </ul>
+          </div>                    
+          <div class="about-section">
+              <fieldset>
+                  <legend><h2>ELECTRONIC COMMUNICATIONS</h2></legend>
+                  <p>The email address which you provide for order processing and/or registration, may be used for one or more of the following purposes.</p>
+              </fieldset>
+              <ul class="mission-list">
+                  <li>To send you information and updates pertaining to your order or use of our service.</li>
+                  <li>To send you information pertaining to your account details and/or status.</li>
+                  <li>To send you occasional news, updates, related to our Website.</li>
+                  <li>To send you promotional emails</li>
+                  <li>To offer you additional services related to Courier Direct</li>
+                  <li>To remind you of the services we offer</li>
+              </ul>
+              <p>Kindly note that If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email as well as an account review in which you may specifically indicate as to which communications you would like to receive and those which you would elect to exclude.</p>
+          </div> --}}
+          {{-- <div class="about-section">
+              <fieldset>
+                  <legend><h2>GENERAL TERMS</h2></legend>
+              </fieldset>
+              <ul class="mission-list">
+                  <li>Bahok Courier will deliver the goods via bi-cycle, motorbike</li>
+                  <li> Any business undertaken by Bahok Courier is carried out subject to the conditions hereinafter set out, each of which shall be deemed to be incorporated in and to be a condition of any agreement whether written or oral implied between Bahok Courier and a Merchant</li>
+                  <li> Bahok Courier reserves the right to refuse the carriage or transportation of any documents or goods for any person, firm of company and the carriage of transportation of any class of documents or goods at its absolute discretion</li>
+                  <li> Any claims brought by a customer against Bahok Courier hereunder in respect of duties and liabilities must be notified to the office of Bahok Courier in writing within  seven days(07) of the day when the documents or goods should have reached their destination.</li>
+                  <li> Merchant must provide reasonable access to the location so that the delivery drivers and/or employees are able to safely deliver the goods</li>
+                  <li> <strong>Bahok Courier LTD</strong> will do its best to ensure the safety of the goods in transit, and during the introduction of the goods into <strong>Merchant</strong> residence/business</li>
+                  <li> <strong>Bahok Courier LTD</strong> will not be responsible for any damages caused after its delivery drivers and/or employees leave Customers residence. Customer must sign a "proof of delivery" sheet to indicate this</li>
+                  <li> Every problem must be solved by the the spot of the customer</li>
+                  <li> If parcel are  stolen or lost or damaged, <strong>Bahok Courier LTD</strong> will compensate 50% price of the product</li>
+              </ul>
+          </div>                    
+          <div class="about-section">
+              <fieldset>
+                  <legend><h2>QUOTATIONS AND CHARGES</h2></legend>
+              </fieldset>
+              <ul class="mission-list">
+                  <li>All quotations by the Bahok Courier shall be provided for on the website prior to payment</li>
+                  <li>Quotations, where given, shall be on the basis of immediate acceptance and shall be subject to withdrawal or revision by the Bahok Courier</li>
+                  <li>If any changes occur in the rates and other charges applicable to the Goods, quotations and charges shall be subject to revision accordingly with or without notice</li>
+              </ul>
+          </div>                    
+          <div class="about-section">
+              <fieldset>
+                  <legend><h2>DESCRIPTION OF GOODS</h2></legend>
+              </fieldset>
+              <ul class="mission-list">
+                  <li> The Merchant shall provide to the Bahok Courier prior to loading a full documented description of the Goods on the website. All relevant information pertaining to the goods should filled out accurately</li>
+                  <li> <strong>Merchant</strong> must inspect the goods to determine their condition prior to the departure of <strong>Bahok Courier LTD</strong> employees and must pack the goods in best condition and fragile goods must be wrapped in bubble wrap or any other format that may not be damaged</li>
+              </ul>
+          </div>            
+          <div class="about-section">
+              <fieldset>
+                  <legend><h2>DANGEROUS GOODS</h2></legend>
+                  <p>No goods, including radioactive materials, which are or may become dangerous, inflammable or noxious, or which by their nature are or may become liable to cause injury or damage to any person, goods or property whatsoever, shall be tendered to the Company without its express consent in writing</p>
+              </fieldset>
+          </div> --}}
+											<!-- end of sub accordion item body contents -->
+										<!-- end of sub accordion item body -->
+									<!-- end of sub accordion item -->
+								<!-- end of sub accordion -->
+							<!-- end of accordion body -->
+						<!-- end of accordion item -->
+
+				// console.log($('.product_weight.active').val());
+				// data.delivery_prices.forEach(function(item){
+				// 	$(`#budget-${item.delivery_weights.id}`).val(item.price)
+				// 	console.log($(`#budget-${item.delivery_weights.id}`));
+				// });
+										// console.log(delivery_data);
+	{{-- <script>
+			$(".plan").click(function() {
+					$(this).siblings().removeClass("plan-selected");
+					$(this).addClass("plan-selected");
+
+					var plan = $("input.plan-selected").val();
+					var weight = $(".weight").val();
+
+					$(".circle").siblings().removeClass("circle-selected");
+
+					//plan 1 mean same day
+					if (plan == 1) {
+							$(".circle1").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 100");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 120");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 150");
+							}
+					}
+
+					//plan 2 mean next day
+					if (plan == 2) {
+							$(".circle2").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 60");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 70");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 100");
+							}
+					}
+
+					//plan 3 mean sub area
+					if (plan == 3) {
+							$(".circle3").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 90");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 110");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 130");
+							}
+					}
+
+					//plan 4 mean outside dhaka
+					if (plan == 4) {
+							$(".circle4").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 100");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 120");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 150");
+							}
+					}
+			});
+
+			$(".product_weight").click(function() {
+					$(this).siblings().removeClass("weight");
+					$(this).addClass("weight");
+
+					var plan = $("input.plan-selected").val();
+					var weight = $(".weight").val();
+
+					//plan 1 mean same day
+					if (plan == 1) {
+							$(".circle1").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 100");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 120");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 150");
+							}
+					}
+
+					//plan 2 mean next day
+					if (plan == 2) {
+							$(".circle2").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 60");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 70");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 100");
+							}
+					}
+
+					//plan 3 mean sub area
+					if (plan == 3) {
+							$(".circle3").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 90");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 110");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 130");
+							}
+					}
+
+					//plan 4 mean outside dhaka
+					if (plan == 4) {
+							$(".circle4").addClass("circle-selected");
+
+							if (weight == 500) {
+									$(".totalCharge").html("BDT 100");
+							} else if (weight == 1) {
+									$(".totalCharge").html("BDT 120");
+							} else if (weight == 2) {
+									$(".totalCharge").html("BDT 150");
+							}
+					}
+			});
+	</script> --}}
+                  {{-- <div class="row mt-20">
+                      <div class="col-md-12 text-center">
+                          <h4>Price List For Parcel (Sub area Dhaka)</h4>
+                          <table class="table table-bordered">
+                              <tr>
+                                  <th>Quantity</th>
+                                  <th>Time</th>
+                                  <th>Below 500-700g</th>
+                                  <th>Up to 1KG</th>
+                                  <th>Up to 2KG</th>
+                              </tr>
+                              <tr>
+                                  <td>Any</td>
+                                  <td>48H - 72H</td>
+                                  <td>100 Tk</td>
+                                  <td>120 Tk</td>
+                                  <td>150 Tk</td>
+                              </tr>
+                          </table>
+                      </div>
+                  </div>        
+                  
+                  <div class="row mt-20">
+                      <div class="col-md-12 text-center">
+                          <h4>Price List For Parcel (Outside Dhaka City)</h4>
+                          <table class="table table-bordered">
+                              <tr>
+                                  <th>Quantity</th>
+                                  <th>Time</th>
+                                  <th>Below 500-700g</th>
+                                  <th>Up to 1KG</th>
+                                  <th>Up to 2KG</th>
+                              </tr>
+                              <tr>
+                                  <td>Any</td>
+                                  <td>72H</td>
+                                  <td>130 Tk</td>
+                                  <td>140 Tk</td>
+                                  <td>160 Tk</td>
+                              </tr>
+                          </table>
+                      </div>
+                  </div> --}}
+                                        {{-- <th>Below 500-700g</th>
+                                        <th>Up to 2KG</th> --}}
+                                    
+                                    {{-- @foreach ($item->delivery_prices as $price) --}}
+
+                                            {{-- <td>{{ $item->delivery_prices[$key]['price'] }}</td>
+                                            <td>{{ $item->delivery_prices[$key]['price'] }}</td>
+                                            <td>{{ $item->delivery_prices[$key]['price'] }}</td> --}}
+
+                                    {{-- @endforeach  --}}
+                                    {{-- <tr>
+                                        <td>Any</td>
+                                        <td>Same Day</td>
+                                        <td>120 Tk</td>
+                                        <td>140 Tk</td>
+                                        <td>150 Tk</td>
+                                    </tr> --}}{{-- <input class="plan" type="radio" name="plan" id="plan2" value="2" />
+					<label class="labl genric-btn primary-border circle circle2" for="plan2"
+						>Next Day</label
+					>
+
+					<input class="plan" type="radio" name="plan" id="plan3" value="3" />
+					<label class="labl genric-btn primary-border circle circle3" for="plan3"
+						>Sub Area</label
+					>
+
+					<input class="plan" type="radio" name="plan" id="plan4" value="4" />
+					<label class="labl genric-btn primary-border circle circle4" for="plan4"
+						>Outside of Dhaka</label
+					> --}}
+									<!-- -->
+									{{-- <input
+										class="checkbox-budget product_weight"
+										type="radio"
+										name="payment"
+										id="budget-2"
+										value="1"
+									/>
+									<label class="for-checkbox-budget" for="budget-2">
+										<span data-hover="Upto 1Kg">Upto 1Kg</span>
+									</label>
+									<!-- -->
+									<input
+										class="checkbox-budget product_weight"
+										type="radio"
+										name="payment"
+										id="budget-4"
+										value="2"
+									/>
+									<label class="for-checkbox-budget" for="budget-4">
+										<span data-hover="Upto 2Kg">Upto 2Kg</span>
+									</label> --}}
+
+        // return ['weights'=> $delivery_price, $request->all()];
+        // return helperClass::resourceDataStore($this->table, $request, ['attribute', 'weight', 'unit', 'serial'], null, null, $this->path);
+						{{-- <div class="col-sm-3 d-flex align-self-stretch">
+							<div class="d-block delivery-content justify-content-between">
+								<span>*All charges are VAT & Tax excluded.</span>
+							</div>
+						</div>
+						<div class="col-sm-3 d-flex align-self-stretch">
+							<div class="d-block delivery-content justify-content-between">
+								<span
+									>*Unavoidable circumstances may change in time of
+									delivery.</span
+								>
+							</div>
+						</div>
+						<div class="col-sm-3 d-flex align-self-stretch">
+							<div class="d-block delivery-content justify-content-between">
+								<span>Sundorban/SA Paribahan Booking charge 30/-</span>
+							</div>
+						</div> --}}
