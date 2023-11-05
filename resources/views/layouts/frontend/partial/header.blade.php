@@ -17,7 +17,10 @@
                                     background: #fff;
                                     border-radius: 50%;
                                   "
-                              src="{{ asset('frontend/images/logo.png') }}" alt="" /></a>
+                                    src="{{ App\Helper\AdditionalResources::appInfo('logo') }}" 
+                                    alt="{{ App\Helper\AdditionalResources::appInfo('title') }}" 
+                                    />
+                                </a>
                           </div>
                       </div>
                       <div class="col-xl-11 col-lg-11">
@@ -56,7 +59,7 @@
                                               <a href="#/login" class="btn">LOG IN</a>
                                           </li>
                                           <li class="button-header">
-                                              <a href="#/register" class="btn">Become a Merchant</a>
+                                              <a href="{{ route('frontend.merchant_register') }}" class="btn">Become a Merchant</a>
                                           </li>
                                       </ul>
                                   </nav>

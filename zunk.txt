@@ -787,3 +787,12 @@
 								<span>Sundorban/SA Paribahan Booking charge 30/-</span>
 							</div>
 						</div> --}}
+
+        {{-- <div class="group-input-radio">
+          <label for="delivery_agent">
+            <input type="radio" class="delivery_agent radio form-input" checked name="delivery_agent" id="delivery_agent"> <span>Delivery Agent</span>
+          </label>
+          <label for="delivery_man">
+            <input type="radio" class="delivery_man radio form-input" name="delivery_man" id="delivery_man"> <span>Delivery Man</span>
+          </label>
+        </div> --}}

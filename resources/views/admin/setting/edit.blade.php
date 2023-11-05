@@ -67,8 +67,10 @@
                                 name="meta_description" value="{{ $data ? $data->meta_description : '' }}"
                                 placeholder="Meta Description">
                         </div>
+
+                        <!-- Images Part -->
                         <div class="col-lg-4 col-sm-6">
-                            <label for="favicon" class="form-label"><b>Favicon Image</b></label>
+                            <label for="favicon" class="form-label"><b>Favicon Image</b> <span class="text-danger">(32x32)</span></label>
                             <input class="form-control" type="file" id="favicon" name="favicon" {{ is_null($data) ||
                                 !file_exists($data->favicon) ? 'required' : '' }}
                             accept="image/*">
@@ -79,7 +81,7 @@
                             @endif
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <label for="logo" class="form-label"><b>Logo Image</b></label>
+                            <label for="logo" class="form-label"><b>Logo Image</b> <span class="text-danger">(250x150)</span></label>
                             <input class="form-control" type="file" id="logo" name="logo" {{ is_null($data) ||
                                 !file_exists($data->logo) ? 'required' : '' }}
                             accept="image/*">
@@ -90,7 +92,7 @@
                             @endif
                         </div>
                         <div class="col-md-4 col-sm-6">
-                            <label for="footer_logo" class="form-label"><b>Footer Logo</b></label>
+                            <label for="footer_logo" class="form-label"><b>Footer Logo</b> <span class="text-danger">(250x150)</span></label>
                             <input class="form-control" type="file" id="footer_logo" name="footer_logo"
                                 accept="image/*">
                             @if ($data && file_exists($data->footer_logo))

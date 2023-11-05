@@ -1,7 +1,8 @@
 @extends('layouts.frontend.app')
+@section('route_name') Terms and Conditions @endsection
 @section('contents')
 <div class="typography mb-50">
-  <h1 class="hrBothSides" style=""><span>Terms & Condition</span></h1>
+  <h1 class="hrBothSides"><span>Terms & Condition</span></h1>
   <div class="row">
       <div class="col-md-8 offset-md-2 about">
         
@@ -44,11 +45,11 @@
                         </div>
                     @endforeach
                   
-                  <ul class="mission-list">
+                  {{-- <ul class="mission-list">
                       <li>1% COD(Cash on Delivery) Charges will be applied</li>
                       <li>PRICE MAY VARY ON THE PACKET SIZE OF THE PRODUCT</li>
                       <li>Sundorban/SA paribahan Booking Charge 30/= per parcel</li>
-                  </ul>
+                  </ul> --}}
               </fieldset>
 
           </div>

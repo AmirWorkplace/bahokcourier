@@ -1,6 +1,7 @@
 @extends('layouts.frontend.app')
+@section('route_name') Home @endsection
 @section('contents')
-	<div class="typography" id="serviceSection">
+	<div class="typography" id="serviceSection" style="margin-bottom: 60px;">
 		<h1 class="hrBothSides"><span>Services</span></h1>
 	</div>
 	<section class="ftco-section ftco-no-pt intro">
@@ -132,10 +133,10 @@
 			</div>
 		</div>
 	</section>
-	<div class="typography">
+	<div class="typography" style="margin-bottom: 60px;">
 		<h1 class="hrBothSides"><span>Service Area</span></h1>
 	</div>
-	<section class="ftco-section ftco-no-pt intro">
+	<section class="ftco-section ftco-no-pt intro" id="coverageArea"> 
 		<div class="row" style="padding: 0 10px">
 			<div class="text-center col-sm-6">
 				<img
@@ -223,7 +224,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="typography" id="aboutSection">
+	<div class="typography mb-5" id="aboutSection">
 		<h1 class="hrBothSides"><span>{{ $about_details->heading }}</span></h1>
 	</div>
 	<section class="ftco-section ftco-no-pt intro">

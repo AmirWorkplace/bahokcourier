@@ -1,4 +1,5 @@
 @extends('layouts.frontend.app')
+@section('route_name') Privacy Policy @endsection
 @section('contents')
 <div class="typography mb-50">
   <h1 class="hrBothSides" style=""><span>Privacy Policy</span></h1>
@@ -24,4 +25,4 @@
       </div>
   </div>
 </div>
-@endsection
+@section('route_name') About @endsection

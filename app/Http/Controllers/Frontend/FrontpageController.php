@@ -7,6 +7,7 @@ use App\Models\AboutDetails;
 use App\Models\AboutFaq;
 use App\Models\Accordion;
 use App\Models\Admin\DeliveryDetails;
+use App\Models\Branch;
 use App\Models\Contact;
 use App\Models\DeliveryItem;
 use App\Models\DeliveryPrice;
@@ -64,7 +65,9 @@ class FrontpageController extends Controller
     public function contact()
     {
         $about_details = AboutDetails::latest('id')->first();
-        return view('frontend.contact', compact('about_details'));
+        $branches = Branch::where('status', true)->orderBy('serial', 'asc')->get();
+
+        return view('frontend.contact', compact('about_details', 'branches'));
     }
 
     public function privacy(){
@@ -79,6 +82,26 @@ class FrontpageController extends Controller
         $terms_and_conditions = TermsAndCondition::where('status', true)->orderBy('serial', 'asc')->get();
 
         return view('frontend.terms-and-conditions', compact('terms_and_conditions', 'delivery_all_items'));
+    }
+
+    public function merchantRegister(){
+        return view('frontend.merchant-register');
+    }
+
+    public function marketingAgentRegister(){
+        return view('frontend.marketing-agent-register');
+    }
+
+    public function riderRegister(){
+        return view('frontend.rider-register');
+    }
+    
+    public function deliveryManRegister(){
+        return view('frontend.delivery-man-register');
+    }
+    
+    public function deliveryAgentRegister(){
+        return view('frontend.delivery-agent-register');
     }
     
 }

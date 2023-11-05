@@ -1,7 +1,8 @@
 @extends('layouts.frontend.app')
+@section('route_name') Contact @endsection
 @section('contents')
 <div class="typography mb-50">
-	<h1 class="hrBothSides" style=""><span>{{ $about_details->heading }}</span></h1>
+	<h1 class="hrBothSides"><span>Contact Us</span></h1>
 </div>
 <section class="ftco-section ftco-no-pt intro container justitfy">
 	<h4 style="padding: 20px">
@@ -77,6 +78,98 @@
 							</div>
 					</div>
 			</div>
+	</div>
+
+	<style>
+		.branch-container{ 
+			padding: 0 20px;
+			display:grid;
+			gap: 20px;
+			grid-template-columns: repeat(1, 1fr);
+		}
+
+		.branch-box {
+			max-width: 300px;
+			width: 100%;
+			padding: 16px;
+			border: 1px solid #ccc;
+			border-radius: 12px;
+			box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.12);
+		}
+
+		.branch-box .branch-card {
+			width: 100%;
+			display: flex; 
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.branch-box .branch-card__heading{
+			margin: 0 14px;
+			padding: 4px 10px;
+			font-size: 17px;
+			font-weight: 500;
+			background: #eb2650;
+			color: #fff;
+			border-radius: 18px;
+			box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.12)
+		}
+
+		.branch-box .branch-card__address {
+			font-size: 15.5px;
+			padding: 12px;
+			line-height: 1.3;
+			text-align: center;
+		}
+
+		.branch-box .branch-card__email,
+		.branch-box .branch-card__phone {
+			font-size: 15px;
+			padding: 6px; 
+			word-break: break-all;
+			text-align: center;
+		}
+
+		@media (min-width: 644px) {
+			.branch-container {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+		
+		@media (min-width: 920px) {
+			.branch-container {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		@media (min-width: 1244px) {
+			.branch-container {
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+	</style>
+
+	<div class="pt-3 mt-lg-5">
+		<div class="branch-container">
+			
+			@foreach ($branches as $branch)
+					<div class="branch-box">
+							<div class="branch-card">
+									<span class="branch-card__heading">{{ $branch->name }}</span>
+									<div class="branch-card__address">{{ $branch->address }}</div>
+									<div class="branch-card__email">{{ $branch->primary_email }} 
+										@if ($branch->secondary_email) <br> {{ $branch->secondary_email }} @endif
+									</div>
+									<div class="branch-card__phone">
+										{{ $branch->primary_phone }}
+										@if ($branch->secondary_phone) <br> {{ $branch->secondary_phone }} @endif
+									</div>
+							</div>
+					</div>
+			@endforeach
+
+		</div>
 	</div>
 </section>
 

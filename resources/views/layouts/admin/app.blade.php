@@ -1,3 +1,6 @@
+@php 
+	$app_info = App\Helper\AdditionalResources::appInfo();
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>{{ $admin_setting ? $admin_setting->title : '' }}</title>
+    <title>{{ $app_info['title'] }}</title>
     <link rel="shortcut icon"
-        href="{{ $admin_setting && file_exists($admin_setting->favicon) ? asset($admin_setting->favicon) : asset('backend/images/logo/favicon.png') }}"
+        href="{{ $app_info['favicon'] }}"
         type="image/x-icon">
     @include('layouts.admin.partial.styles')
     @include('layouts.admin.partial.alert')

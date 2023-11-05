@@ -1,7 +1,7 @@
 <aside class="bg-dark aside aside-fixed d-flex flex-column">
     <div class="brand">
         <a href="{{ Route('admin.dashboard') }}" class="brand-logo">
-            <img class="lazyload" data-src="{{ $admin_setting && file_exists($admin_setting->logo) ? asset($admin_setting->logo) : asset('backend/images/logo/logo.png')  }}" height="60" alt="Logo">
+            <img class="lazyload" data-src="{{ App\Helper\AdditionalResources::appInfo('secondary_logo')  }}" height="60" alt="Logo">
         </a>
 
         <button class="brand-toggle btn btn-sm px-0  @if (Session::has('sidebar-collapse')) active @endif">

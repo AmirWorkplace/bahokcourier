@@ -7,13 +7,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>{{ $app_info['title'] }}</title>
+    <title>{{ $app_info['title'] }} || @yield('route_name')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="{{ asset('frontend/images/favicon.png') }}"
+      href="{{ $app_info['favicon'] }}"
     />
     <style>
       :root {

@@ -11,11 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('delivery_details', function (Blueprint $table) {
+        Schema::create('branches', function (Blueprint $table) {
             $table->id();
-            $table->string('title')->nullable();
+            $table->string('name');
+            $table->text('address')->nullable();
+            $table->string('primary_email');
+            $table->string('secondary_email')->nullable();
+            $table->string('primary_phone');
+            $table->string('secondary_phone')->nullable();
             $table->bigInteger('serial')->nullable();
-            $table->text('short_description')->nullable();
             $table->boolean('status')->default(true);
             $table->timestamps();
         });
@@ -26,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('delivery_details');
+        Schema::dropIfExists('branches');
     }
 };

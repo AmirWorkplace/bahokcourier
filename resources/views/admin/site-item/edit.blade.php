@@ -112,7 +112,7 @@
 
                             <!-- Images Part -->
                             <div class="col-md-4 col-6">
-                                <label for="favicon" class="form-label"><b>App Favicon Image</b></label>
+                                <label for="favicon" class="form-label"><b>App Favicon Image</b> <span class="text-danger">(32x32)</span></label>
                                 <input type="file" id="favicon" name="favicon" class="form-control" accept="image/*" />
                                 @if ($data && file_exists($data->favicon))
                                     <div class="pt-2">
@@ -121,7 +121,7 @@
                                 @endif
                             </div>
                             <div class="col-md-4 col-6">
-                                <label for="header_bg_image" class="form-label"><b>App Logo Image</b></label>
+                                <label for="header_bg_image" class="form-label"><b>App Logo Image</b> <span class="text-danger">(250x150)</span></label>
                                 <input type="file" id="logo" name="logo" class="form-control" accept="image/*"
                                     {{ $data && file_exists($data->logo) ? '' : '' }}>
                                 @if ($data && file_exists($data->logo))
@@ -131,7 +131,7 @@
                                 @endif
                             </div>
                             <div class="col-md-4 col-6">
-                                <label for="secondary_logo" class="form-label"><b>Secondary Logo Image</b></label>
+                                <label for="secondary_logo" class="form-label"><b>Secondary Logo Image</b> <span class="text-danger">(500x300)</span></label>
                                 <input type="file" id="footer_animation_image" name="secondary_logo" class="form-control" accept="image/*" />
                                 @if ($data && file_exists($data->secondary_logo))
                                     <div class="pt-2">
@@ -140,7 +140,7 @@
                                 @endif
                             </div>
                             <div class="col-md-4 col-6">
-                                <label for="banner_image" class="form-label"><b>Banner Image</b></label>
+                                <label for="banner_image" class="form-label"><b>Banner Image</b> <span class="text-danger">(1920x1080)</span></label>
                                 <input type="file" id="banner_image" name="banner_image" class="form-control" accept="image/*" />
                                 @if ($data && file_exists($data->banner_image))
                                     <div class="pt-2">
@@ -158,7 +158,7 @@
                                 @endif
                             </div>
                             <div class="col-md-4 col-6">
-                                <label for="map_image" class="form-label"><b>Home Page Map Image</b></label>
+                                <label for="map_image" class="form-label"><b>Home Page Map Image</b> <span class="text-danger">(600x600)</span></label>
                                 <input type="file" id="map_image" name="map_image" class="form-control" accept="image/*" />
                                 @if ($data && file_exists($data->map_image))
                                     <div class="pt-2">
@@ -167,7 +167,7 @@
                                 @endif
                             </div>
                             <div class="col-md-4 col-6">
-                                <label for="footer_image" class="form-label"><b>Footer Image</b></label>
+                                <label for="footer_image" class="form-label"><b>Footer Image</b> <span class="text-danger">(1920x300)</span></label>
                                 <input type="file" id="footer_image" name="footer_image" class="form-control" accept="image/*" />
                                 @if ($data && file_exists($data->footer_image))
                                     <div class="pt-2">

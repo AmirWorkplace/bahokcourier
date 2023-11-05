@@ -11,16 +11,12 @@ use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\SettingController;
-use App\Http\Controllers\Admin\ProductController; 
 use App\Http\Controllers\Admin\AdminMenuController;
-use App\Http\Controllers\Admin\UserMessageController; 
 use App\Http\Controllers\Admin\AdminSettingController;
 use App\Http\Controllers\Frontend\FrontpageController;
-use App\Http\Controllers\Admin\ClientReviewsController; 
 use App\Http\Controllers\Admin\AdminMenuActionController;
 use App\Http\Controllers\Admin\ClientMessageController;
 use App\Http\Controllers\Admin\ContactController;
-use App\Http\Controllers\Admin\DeliverChargeSetupController;
 use App\Http\Controllers\Admin\DeliveryDetailsController;
 use App\Http\Controllers\Admin\DeliveryWeightSetupController;
 use App\Http\Controllers\Admin\DetailsCardController;
@@ -30,19 +26,27 @@ use App\Http\Controllers\Admin\PrivacyController;
 use App\Http\Controllers\Admin\ProcessingDetailsController;
 use App\Http\Controllers\Admin\ServicesController;
 use App\Http\Controllers\Admin\ServicesTagController;
-use App\Http\Controllers\Admin\ShowcaseItemController;
-use App\Http\Controllers\Admin\SiteInformationsController;
-use App\Http\Controllers\Admin\SiteItemsController;
 use App\Http\Controllers\Admin\SocialWorkController;
 use App\Http\Controllers\Admin\SpecialFoodItemsController;
-use App\Http\Controllers\Admin\StaticContentsController;
 use App\Http\Controllers\Admin\SubAreaSetupController;
 use App\Http\Controllers\Admin\TermsAndConditionController;
 use App\Http\Controllers\Admin\TestimonialController;
+use App\Http\Controllers\Admin\DeliveryItemController;
+use App\Http\Controllers\Admin\BranchController;
+use App\Models\DeliveryItem;
+
+// unnecessary
+use App\Http\Controllers\Admin\ShowcaseItemController;
+use App\Http\Controllers\Admin\SiteInformationsController;
+use App\Http\Controllers\Admin\SiteItemsController;
+use App\Http\Controllers\Admin\StaticContentsController;
 use App\Models\AboutDetails;
 use App\Models\AboutFaq;
-use App\Http\Controllers\Admin\DeliveryItemController;
-use App\Models\DeliveryItem;
+use App\Http\Controllers\Admin\ProductController; 
+use App\Http\Controllers\Admin\UserMessageController; 
+use App\Http\Controllers\Admin\ClientReviewsController; 
+use App\Http\Controllers\Admin\DeliverChargeSetupController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -166,8 +170,12 @@ Route::group(['as' => 'admin.', 'prefix' => 'admin', 'middleware' => ['admin_per
 
     // Delivery Weight Attributes 
     Route::resource('delivery-item', DeliveryItemController::class);
+
     // Delivery Details
     Route::resource('delivery-details', DeliveryDetailsController::class);
+
+    // Branch Setup
+    Route::resource('branch', BranchController::class);
 });
 
 
@@ -182,6 +190,12 @@ Route::group(['as' => 'frontend.'], function () {
         Route::get('services', 'services')->name('services');
         Route::get('privacy', 'privacy')->name('privacy');
         Route::get('terms-and-conditions', 'termsAndConditions')->name('terms_and_conditions');
+
+        Route::get('merchant-register', 'merchantRegister')->name('merchant_register');
+        Route::get('marketing-agent-register', 'marketingAgentRegister')->name('marketing_agent_register');
+        // Route::get('rider-register', 'riderRegister')->name('rider_register');
+        Route::get('delivery-man-register', 'deliveryManRegister')->name('delivery_man_register');
+        Route::get('delivery-agent-register', 'deliveryAgentRegister')->name('delivery_agent_register');
     });
 
 });

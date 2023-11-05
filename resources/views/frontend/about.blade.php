@@ -1,4 +1,5 @@
 @extends('layouts.frontend.app')
+@section('route_name') About @endsection
 @section('contents')
 <div style="height: 100px"></div>
 <div class="typography mb-50 px-2">

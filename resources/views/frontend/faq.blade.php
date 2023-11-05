@@ -1,5 +1,13 @@
 @extends('layouts.frontend.app')
+@section('route_name') Faq @endsection
 @section('contents')
+<style>
+	.accordion-body__contents p {
+		color: #fff !important;
+	}
+</style>
+
+
 	<div class="typography mb-50">
 		<h1 class="hrBothSides"><span>Frequently Asked Questions</span></h1>
 	</div>
@@ -14,7 +22,7 @@
 								{{ $faq->title }}
 							</div>
 							<div class="accordion-body js-accordion-body">
-								<div class="accordion-body__contents bwColor">
+								<div class="accordion-body__contents bwColor" style="color: #fff !important">
 									{!! $faq->short_description !!}
 								</div>
 								<div class="accordion js-accordion"></div>

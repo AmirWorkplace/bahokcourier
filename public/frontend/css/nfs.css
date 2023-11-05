@@ -701,3 +701,72 @@ animation: myfirst 22s linear infinite;
   width: 70%;
   height: auto;
 }
+
+/* Contact page branches card design */
+.branch-container{ 
+  padding: 0 20px;
+  display:grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.branch-box {
+  max-width: 300px;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.12);
+}
+
+.branch-box .branch-card {
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.branch-box .branch-card__heading{
+  margin: 0 14px;
+  padding: 4px 10px;
+  font-size: 17px;
+  font-weight: 500;
+  background: #eb2650;
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.12)
+}
+
+.branch-box .branch-card__address {
+  font-size: 15.5px;
+  padding: 12px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.branch-box .branch-card__email,
+.branch-box .branch-card__phone {
+  font-size: 15px;
+  padding: 6px; 
+  word-break: break-all;
+  text-align: center;
+}
+
+@media (min-width: 644px) {
+  .branch-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 920px) {
+  .branch-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1244px) {
+  .branch-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

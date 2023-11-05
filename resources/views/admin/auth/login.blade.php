@@ -5,22 +5,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ $admin_setting ? $admin_setting->title : '' }}</title>
-        <link rel="shortcut icon" href="{{ $admin_setting && file_exists($admin_setting->favicon) ? asset($admin_setting->favicon) : asset('backend/images/logo/favicon.png') }}" type="image/x-icon">
+        <title>{{ App\Helper\AdditionalResources::appInfo('title')  }}</title>
+        <link rel="shortcut icon" href="{{ App\Helper\AdditionalResources::appInfo('favicon') }}" type="image/x-icon">
         @include('layouts.admin.partial.styles')
 
         @if(session()->has('errors'))
-        @foreach ( session('errors')->all() as $error )
-        @php
-        RealRashid\SweetAlert\Facades\Alert::toast($error, 'error');
-        @endphp
-        @endforeach
+            @foreach ( session('errors')->all() as $error )
+                @php
+                    RealRashid\SweetAlert\Facades\Alert::toast($error, 'error');
+                @endphp
+            @endforeach
         @endif
 
         @if(\Session::has('error'))
-        @php
-        RealRashid\SweetAlert\Facades\Alert::toast(\Session::get('error'), 'error');
-        @endphp
+            @php
+                RealRashid\SweetAlert\Facades\Alert::toast(\Session::get('error'), 'error');
+            @endphp
         @endif
         <style>
             :root {
@@ -35,7 +35,7 @@
             <div class="place-items-center p-3" style="height: 100vh">
                 <div class="login-wrapper p-sm-5 p-4">
                     <div class="text-center pb-2 mb-4">
-                        <img src="{{ $admin_setting && file_exists($admin_setting->logo) ? asset($admin_setting->logo) : asset('backend/images/logo/logo.png') }}" width="180" alt="Logo">
+                        <img src="{{ App\Helper\AdditionalResources::appInfo('secondary_logo') }}" width="180" alt="Logo">
                         <br>
                         {{-- <label><b>Ecommerce Management Software</b></label> --}}
                     </div>
